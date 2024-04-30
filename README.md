@@ -22,4 +22,8 @@ Run `npx nx serve point-technique` to start the development server. Happy coding
 
 - **Bootstrap** : https://getbootstrap.com/
 - **TailwindCSS** : https://tailwindcss.com/
+- **Bulma** : https://bulma.io/
+
+## 3. Atomic CSS
 - **PandaCSS** : https://pandacss.com/
+- **StyleX** : https://stylexjs.com/
