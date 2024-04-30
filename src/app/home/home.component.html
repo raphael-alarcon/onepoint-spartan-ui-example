@@ -1,0 +1,20 @@
+<main class="grid place-items-center min-h-screen">
+  <section class="w-1/3 rounded-2xl flex flex-row p-6 gap-8" hlmCard>
+    <div class="flex-1 h-full flex flex-col justify-between gap-14">
+      <div class="flex flex-row gap-4 items-center p-0" hlmCardHeader>
+        <hlm-avatar>
+          <img [ngSrc]="logoUrl" alt="onepoint logo, beyond the obvious !" hlmAvatarImage width="300" height="300"/>
+          <span class="bg-slate-200" hlmAvatarFallback>OP</span>
+        </hlm-avatar>
+        <div>
+          <h3 hlmCardTitle>Onepoint</h3>
+          <p hlmCardDescription>Beyond the obvious.</p>
+        </div>
+      </div>
+      <div class="p-0" hlmCardContent>
+        <app-form-login></app-form-login>
+      </div>
+    </div>
+    <img class="rounded-2xl w-1/2 object-cover" src="https://www.groupeonepoint.com/wp-content/uploads/2023/09/Visuel_2-3.jpg" alt="Onepoint"/>
+  </section>
+</main>

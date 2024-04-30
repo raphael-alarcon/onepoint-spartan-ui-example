@@ -1,0 +1,54 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@spartan-ng/ui-avatar-helm": [
+        "src/app/libs/ui/ui-avatar-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-badge-helm": [
+        "src/app/libs/ui/ui-badge-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-card-helm": [
+        "src/app/libs/ui/ui-card-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-skeleton-helm": [
+        "src/app/libs/ui/ui-skeleton-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-button-helm": [
+        "src/app/libs/ui/ui-button-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-icon-helm": [
+        "src/app/libs/ui/ui-icon-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-input-helm": [
+        "src/app/libs/ui/ui-input-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-aspectratio-helm": [
+        "src/app/libs/ui/ui-aspectratio-helm/src/index.ts"
+      ],
+      "@spartan-ng/ui-label-helm": [
+        "src/app/libs/ui/ui-label-helm/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}
